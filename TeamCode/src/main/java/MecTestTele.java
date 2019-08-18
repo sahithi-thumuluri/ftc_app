@@ -27,7 +27,7 @@ public class MecTestTele extends OpMode
     {
         if (gamepad1.b)
         {
-            holo.driveRightFront(1f);
+            holo.driveStraight_Enc(100f, .5);
         }
         else
         {
@@ -35,7 +35,7 @@ public class MecTestTele extends OpMode
         }
         if (gamepad1.a)
         {
-            holo.driveRightBack(1f);
+            holo.pivot(150);
         }
         else
         {
@@ -43,7 +43,7 @@ public class MecTestTele extends OpMode
         }
         if (gamepad1.y)
         {
-            holo.driveLeftFront(1f);
+            holo.pivot(-150);
         }
         else
         {

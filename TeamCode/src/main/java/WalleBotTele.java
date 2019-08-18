@@ -28,13 +28,13 @@ public class WalleBotTele extends OpMode
 
         if (toggleSpeedMode)
         {
-            telemetry.addData("Speed mode = ON", null);
+            telemetry.addData("Full speed ahead!!!!!", null);
             rValue = gamepad1.right_stick_y;
             lValue = gamepad1.left_stick_y;
         }
         else
         {
-            telemetry.addData("speed mode = OFF", null);
+            telemetry.addData("Demonstration/KID mode", null);
             rValue = gamepad1.right_stick_y * .5f;
             lValue = gamepad1.left_stick_y * .5f;
         }

@@ -291,13 +291,13 @@ public class MecBot
             {
                 driveRightFront.setPower(-.8);
                 driveRightBack.setPower(-.8);
-                driveLeftFront.setPower(-.8);
-                driveLeftBack.setPower(-.8);
+                driveLeftFront.setPower(.8);
+                driveLeftBack.setPower(.8);
 
             } else //CounterClockwise
             {
-                driveRightFront.setPower(.8);
-                driveRightBack.setPower(.8);
+                driveRightFront.setPower(-.8);
+                driveRightBack.setPower(-.8);
                 driveLeftFront.setPower(.8);
                 driveLeftBack.setPower(.8);
             }
